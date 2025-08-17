@@ -27,3 +27,5 @@ Code
 
         pip install qbittorrent-api
 This command installs the necessary dependencies, including urllib3, requests, and attrdict
+
+and obviously you need python installed you can download at https://www.python.org/downloads/
