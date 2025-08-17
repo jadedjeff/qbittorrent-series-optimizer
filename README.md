@@ -14,6 +14,9 @@ Navigate to Tools > Options (or Preferences on macOS/Linux).
 Select the Web UI tab.
 Check the box to Enable Web UI.
 Configure the Listen port (default is 8080) and optionally set a Username and Password for authentication.
+default Username:admin
+default Password:adminadmin
+******YOU CAN CHANGE THE DEFAULT USERNAME AND PASSWORD BUT NEED TO UPDATE IT IN THE .PY FILE AS WELL******
 Click Apply or OK to save the changes.
 Install the qbittorrent-api Python library:
 Open your command prompt or terminal.
@@ -21,13 +24,4 @@ Use pip to install the library:
 Code
 
         pip install qbittorrent-api
-This command installs the necessary dependencies, including urllib3, requests, and attrdict.
-
-
-
-
-This script should be run after you open qbittorent
-It will automatically change the priority of the earlest episode being downloaded in a series within a torrent to maximum and then change it to the "not downloaded" status at the end to stop sharing that specific file
-I have found this speeds up the overall download of a TV series
-I have added in the ability to change all other files to "do not download" to speed things up a bit more.
-This is especially useful when downloading in high quality where file sizes are larger, or obscure series so you can start to watch sooner.
+This command installs the necessary dependencies, including urllib3, requests, and attrdict
