@@ -7,7 +7,8 @@ I have added a lot if you liked this before it's much improved.
 
  You will need to install the qbittorrent api to get this to work here is how
 
-Installing the qBittorrent API primarily involves two steps: enabling the Web UI in qBittorrent and then installing the Python client library for interacting with it.
+Installing the qBittorrent API primarily involves two steps: enabling the Web UI in qBittorrent
+and then installing the Python client library for interacting with it.
 Enable qBittorrent Web UI:
 Launch qBittorrent.
 Navigate to Tools > Options (or Preferences on macOS/Linux).
