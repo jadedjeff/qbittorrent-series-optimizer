@@ -1,7 +1,8 @@
 This script should be run after you open qbittorent and you have an active torrent.
 I have found this speeds up the overall download of a TV series
 
-The newest version (5) will still automatically identify and prioritize TV series from the first episode to the last by changing the priority maximum for each and when a file completes it will mark it as "not downloaded" so that it will no longer be shared.  It will also now do mark any torrent that finishs (the files within the torrent) as "not downloaded" so that it will stop sharing them as well
+The newest version (5) will still automatically identify and prioritize TV series from the first episode to the last by changing the priority maximum for each and when a file completes it will mark it as "not downloaded" so that it will no longer be shared.
+It will also now do mark any torrent that finishs (the files within the torrent) as "not downloaded" so that it will stop sharing them as well
 
 I have added a lot if you liked this before it's much improved.
 
