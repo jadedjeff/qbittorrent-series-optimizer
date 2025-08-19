@@ -35,6 +35,3 @@ pip to install the library
 This command installs the necessary dependencies, including urllib3, requests, and attrdict
 Install the psutil python library:
 pip install psutil
-
-
-and obviously you need python installed you can download at https://www.python.org/downloads/
