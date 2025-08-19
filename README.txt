@@ -1,4 +1,4 @@
-This script version 7+ can used before or after you open qbittorent and you have an active torrent.
+This script version 6+ can used before or after you open qbittorent and you have an active torrent.
 I have found this speeds up the overall download of a TV series
 
 The newest version (5) will still automatically identify and prioritize TV series from the first episode to the last by changing the priority maximum for each and when a file completes it will mark it as "not downloaded" so that it will no longer be shared.
