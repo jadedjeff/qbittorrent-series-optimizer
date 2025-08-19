@@ -20,14 +20,21 @@ default Username:admin
 default Password:adminadmin
 ******YOU CAN CHANGE THE DEFAULT USERNAME AND PASSWORD BUT NEED TO UPDATE IT IN THE .PY FILE AS WELL******
 Click Apply or OK to save the changes.
+
+This script will also remove torrents once they have finished downloading without removing the files
+It will also shut down Qbittorrent and itself if there is no user input after all torrents are completed and removed (not the files)
+
+you need python installed you can download at https://www.python.org/downloads/
+(if on windows use the microsoft store) then use the following to install the neccesary dependencies 
+
 Install the qbittorrent-api Python library:
 Open your command prompt or terminal.
-Use pip to install the library
+pip to install the library
 
         pip install qbittorrent-api
 This command installs the necessary dependencies, including urllib3, requests, and attrdict
 Install the psutil python library:
-use pip install psutil
+pip install psutil
 
 
 and obviously you need python installed you can download at https://www.python.org/downloads/
