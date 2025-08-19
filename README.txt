@@ -1,4 +1,4 @@
-This script should be run after you open qbittorent and you have an active torrent.
+This script version 7+ can used before or after you open qbittorent and you have an active torrent.
 I have found this speeds up the overall download of a TV series
 
 The newest version (5) will still automatically identify and prioritize TV series from the first episode to the last by changing the priority maximum for each and when a file completes it will mark it as "not downloaded" so that it will no longer be shared.
@@ -22,10 +22,12 @@ default Password:adminadmin
 Click Apply or OK to save the changes.
 Install the qbittorrent-api Python library:
 Open your command prompt or terminal.
-Use pip to install the library:
-Code
+Use pip to install the library
 
         pip install qbittorrent-api
 This command installs the necessary dependencies, including urllib3, requests, and attrdict
+Install the psutil python library:
+use pip install psutil
+
 
 and obviously you need python installed you can download at https://www.python.org/downloads/
